@@ -20,6 +20,7 @@ jobs:
         with:
           repository: ScoopInstaller/Scoop
           path: 'scoop_core'
+          ref: 'v0.2.0'
       - name: Init and Test
         shell: powershell
         run: |
@@ -40,6 +41,7 @@ jobs:
         with:
           repository: ScoopInstaller/Scoop
           path: 'scoop_core'
+          ref: 'v0.2.0'
       - name: Init and Test
         shell: pwsh
         run: |
