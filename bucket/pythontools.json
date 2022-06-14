@@ -1,9 +1,9 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "PowerShell module for interacting with Python on Windows",
     "homepage": "https://github.com/davidwallace80/pythontools",
-    "license": "BSD-2-Clause",
-    "url": "https://psg-prod-eastus.azureedge.net/packages/pythontools.1.0.0.nupkg",
+    "license": "MIT",
+    "url": "https://psg-prod-eastus.azureedge.net/packages/pythontools.1.0.1.nupkg",
     "hash": "2b804889721bca1b736763bf3ab649e17386f7103972235c71f535cd30d51037",
     "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
     "psmodule": {
