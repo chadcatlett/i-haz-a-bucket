@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/oligot/go-mod-upgrade/releases/download/v0.7.0/go-mod-upgrade_0.7.0_Windows_x86_64.tar.gz",
-            "hash": "8932b0c9ee45dfbee5a734095def57076f05cf9bae053978979ea74639611564"
+            "hash": "9ae25ff59201cfec363574cf0192bbc3361408691313ad677dddc8388c70de7f"
         },
         "32bit": {
             "url": "https://github.com/oligot/go-mod-upgrade/releases/download/v0.7.0/go-mod-upgrade_0.7.0_Windows_i386.tar.gz",
-            "hash": "144cdfd7124490213eac872d643222868e690e9e9e43a97d4aa573953470507f"
+            "hash": "9cb52c1f923680c1ce1c8821bc8d7b6689340ccbc48eb12295003ce6a33366fc"
         }
     },
     "bin": "go-mod-upgrade.exe",
