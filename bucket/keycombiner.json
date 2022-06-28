@@ -1,12 +1,12 @@
 {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "Instant shortcut lookup",
     "homepage": "https://keycombiner.com/",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://keycombiner.com/download/KeyCombiner%20Setup%200.8.0.exe#/dl.7z",
-            "hash": "sha512:aa94e6a8f432eeb32200870828b6a6f0437ae8f85b9f30312ba024a7b405e26776a3c78e1cef93e517c6eb1aec04916e1b0437f93148677ff264de9b3541b720",
+            "url": "https://keycombiner.com/download/KeyCombiner%20Setup%200.8.1.exe#/dl.7z",
+            "hash": "sha512:3d92440fae08f435f4178f7abe17035afb3a8a466eeb1b193b4465a9d2f921b15336ad702f157788363b042e789f72c541dea09e27ddedd8f5ea2378383302ad",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*.exe\" -Recurse -Force"
