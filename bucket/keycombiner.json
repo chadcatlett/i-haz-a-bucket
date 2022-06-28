@@ -1,0 +1,37 @@
+{
+    "version": "0.8.0",
+    "description": "Instant shortcut lookup",
+    "homepage": "https://keycombiner.com/",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://keycombiner.com/download/KeyCombiner%20Setup%200.8.0.exe#/dl.7z",
+            "hash": "sha512:aa94e6a8f432eeb32200870828b6a6f0437ae8f85b9f30312ba024a7b405e26776a3c78e1cef93e517c6eb1aec04916e1b0437f93148677ff264de9b3541b720",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*.exe\" -Recurse -Force"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "KeyCombiner.exe",
+            "KeyCombiner"
+        ]
+    ],
+    "checkver": {
+        "url": "https://keycombiner.com/download/latest.yml",
+        "regex": "version:\\s([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://keycombiner.com/download/KeyCombiner%20Setup%20$version.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "sha512:\\s$base64"
+        }
+    }
+}
