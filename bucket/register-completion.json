@@ -1,0 +1,19 @@
+{
+    "version": "0.0.22",
+    "description": "PowerShell module for making your own completions using data structures",
+    "homepage": "https://github.com/aliuq/Register-Completion",
+    "license": "MIT",
+    "url": "https://psg-prod-eastus.azureedge.net/packages/register-completion.0.0.22.nupkg",
+    "hash": "aa4b08c1cf8ccfc2df38db97caa2804b9eed89ccfc2c7001f910423f4eb5455a",
+    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
+    "psmodule": {
+        "name": "Register-Completion"
+    },
+    "checkver": {
+        "url": "https://www.powershellgallery.com/packages/Register-Completion/",
+        "regex": "<h2>([\\d.]+)</h2>"
+    },
+    "autoupdate": {
+        "url": "https://psg-prod-eastus.azureedge.net/packages/register-completion.$version.nupkg"
+    }
+}
