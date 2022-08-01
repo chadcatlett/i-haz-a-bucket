@@ -1,10 +1,10 @@
 {
-    "version": "2.25",
+    "version": "2.2.16",
     "description": " PowerShell module to interact with Visual Studio Setup",
     "homepage": "https://github.com/Microsoft/vssetup.powershell",
     "license": "MIT",
-    "url": "https://psg-prod-eastus.azureedge.net/packages/vssetup.2.2.5.nupkg",
-    "hash": "5334843253D128FF2FE5BDE242229E609FC64F623C9B0A37D217065D48663BB0",
+    "url": "https://psg-prod-eastus.azureedge.net/packages/vssetup.2.2.16.nupkg",
+    "hash": "4e0e085e1fba77908100a327e225ebe74acd13b992fe52a408131bc4b9f02275",
     "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
     "psmodule": {
         "name": "VSSetup"
