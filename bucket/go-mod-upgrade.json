@@ -1,16 +1,16 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "Update outdated Go dependencies interactively",
     "homepage": "https://github.com/oligot/go-mod-upgrade",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/oligot/go-mod-upgrade/releases/download/v0.9.0/go-mod-upgrade_0.9.0_Windows_x86_64.tar.gz",
-            "hash": "c35531cbe5de722ad65db38fec743563a60b0ac60bb46cbf25c8b21b0fb701b5"
+            "url": "https://github.com/oligot/go-mod-upgrade/releases/download/v0.9.1/go-mod-upgrade_0.9.1_Windows_x86_64.tar.gz",
+            "hash": "aae45695cbb9e28a317510ac1e807388df8958acc5f6f3b065545ffee87d00f9"
         },
         "32bit": {
-            "url": "https://github.com/oligot/go-mod-upgrade/releases/download/v0.9.0/go-mod-upgrade_0.9.0_Windows_i386.tar.gz",
-            "hash": "2fd09efd567718002793668938c75c46b3890077c993b2f152c7e00a6961e707"
+            "url": "https://github.com/oligot/go-mod-upgrade/releases/download/v0.9.1/go-mod-upgrade_0.9.1_Windows_i386.tar.gz",
+            "hash": "1c52afb877de45cb218a6fd6595e3d3c22a826679a096d88c78826302a407969"
         }
     },
     "bin": "go-mod-upgrade.exe",
